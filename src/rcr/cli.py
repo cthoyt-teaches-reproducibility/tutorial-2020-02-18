@@ -1,12 +1,6 @@
-"""
-
-
-
-"""
-
 import click
 
-from .all_my_shut import do_my_super_path_stuff
+from .utils import do_my_super_path_stuff
 
 
 @click.command()

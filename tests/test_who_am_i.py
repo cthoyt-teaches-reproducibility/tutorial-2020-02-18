@@ -23,7 +23,7 @@ class TestRcr(unittest.TestCase):
         # assert my_name == 'Jean Val Jean'
         self.assertEqual('Jean Val Jean', my_name, msg='Got wrong name')
 
-    def test_prinsoner_number(self):
+    def test_prisoner_number(self):
         n = rcr.get_my_prisoner_number()
         self.assertIsNotNone(n)
         self.assertIsInstance(n, int)
